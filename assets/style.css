@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252a;
+    background-color: white;
 }
 
 li,
@@ -12,7 +12,7 @@ header {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: white;
+    color: #24252a;
     text-decoration: none;
 }
 
@@ -20,5 +20,37 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 10px 10%;
+    border-bottom: 5px solid darkgreen;
 }
+
+.logo {
+    cursor: pointer;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav li a {
+    transition: all 0.3 ease 0s;
+}
+
+.nav li a:hover {
+    color: lightgreen;
+}
+
+.about {
+    text-align: end;
+    padding-top: 20px;
+    padding-right: 7%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.about border {}
