@@ -51,19 +51,37 @@ a:hover {
 
 .about {
     text-align: center;
+    display: inline-block;
     padding: 20px;
     width: 30%;
 }
 
+.about:hover {
+    transition: all 0.3 ease 0s;
+    transition: 0.8s, 0.5s;
+}
+
 .projects {
-    float: right;
+    float: left;
     padding: 100px;
+}
+
+.projects h2 {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.projects h2:hover {
+    color: rgb(136, 10, 10);
+    transition: all 0.3 ease 0s;
+    transition: 0.8s, 0.5s;
 }
 
 .float-left {
     margin: 5%;
     background-color: rgb(199, 68, 68);
     border-radius: 25px;
+    float: right;
 }
 
 ul {
@@ -79,4 +97,11 @@ p {
     font-size: 30px;
     background-color: rgb(199, 68, 68);
     text-decoration: underline;
+}
+
+.contact {}
+
+.contact h2 {
+    text-align: center;
+    margin-top: 40px;
 }
