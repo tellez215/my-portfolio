@@ -7,6 +7,11 @@
     color: white;
 }
 
+body {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 li,
 a,
 header {
@@ -52,7 +57,7 @@ a:hover {
 .about {
     text-align: center;
     display: inline-block;
-    padding: 20px;
+    padding: 60px;
     width: 30%;
 }
 
@@ -62,9 +67,12 @@ a:hover {
 }
 
 .projects {
-    padding: 100px;
+    padding: 500px;
     text-align: center;
     border-radius: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
 }
 
 .projects h2 {
@@ -82,17 +90,27 @@ a:hover {
     transition: 0.8s, 0.5s;
 }
 
-.projects h2:hover {}
-
 .plantimg {
     opacity: 0.6;
 }
 
+.imgholder {
+    padding: 40px;
+}
+
+.imgholder2 {
+    padding: 40px;
+}
+
+.imgholder3 {
+    padding: 40px;
+}
+
 .float-left {
     margin: 5%;
+    border-radius: 100px;
+    float: left;
     background-color: rgb(199, 68, 68);
-    border-radius: 25px;
-    float: right;
 }
 
 ul {
@@ -110,8 +128,17 @@ ul {
     text-decoration: underline;
 }
 
-.contact {
-    padding: 40px;
+.contact h2 {
+    text-align: center;
+    padding-bottom: 4px;
+    background-color: rgb(199, 68, 68);
+    padding: 30px;
+    margin-top: 0;
+    bottom: 0;
 }
 
-.contact h2 {}
+.contact p {
+    background-color: rgb(199, 68, 68);
+    text-align: center;
+    padding: 5px;
+}
