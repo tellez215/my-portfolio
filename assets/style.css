@@ -90,10 +90,6 @@ a:hover {
     transition: 0.8s, 0.5s;
 }
 
-.plantimg {
-    opacity: 0.6;
-}
-
 .imgholder {
     padding: 40px;
 }
@@ -141,4 +137,8 @@ ul {
     background-color: rgb(199, 68, 68);
     text-align: center;
     padding: 5px;
+}
+
+.contact h2 {
+    text-decoration: underline;
 }
