@@ -8,8 +8,9 @@
 }
 
 body {
-    flex-wrap: wrap;
-    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    display: block;
 }
 
 li,
@@ -53,10 +54,10 @@ a:hover {
 
 .about {
     text-align: center;
-    display: inline-block;
+    /* display: inline-block; */
     padding: 60px;
-    width: 30%;
-    flex-direction: column;
+    /* width: 30%; */
+    /* flex-direction: column; */
 }
 
 .about:hover {
@@ -76,6 +77,10 @@ a:hover {
     font-size: 30px;
 }
 
+.plantimg {
+    width: 100%;
+}
+
 .imgholder {
     padding: 40px;
 }
@@ -91,7 +96,7 @@ a:hover {
 .float-left {
     margin: 5%;
     border-radius: 100px;
-    float: left;
+    /* float: left; */
     background-color: rgb(199, 68, 68);
 }
 
@@ -127,4 +132,10 @@ ul {
 
 .contact h2 {
     text-decoration: underline;
+}
+
+@media (min-width: 850px) {
+    .plantimg {
+        width: 800px;
+    }
 }
