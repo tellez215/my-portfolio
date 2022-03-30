@@ -134,8 +134,34 @@ ul {
     text-decoration: underline;
 }
 
+
+/* Fixing my "GreenPlant Image to fit screen when shrunk" */
+
 @media (min-width: 850px) {
     .plantimg {
         width: 800px;
     }
 }
+
+
+/*Small Devives , Phones */
+
+@media screen and (max-width:500px) {
+    nav a {
+        color: red;
+    }
+}
+
+
+/* Medium Devices , Tablets */
+
+@media screen and (max-width:770px) {
+    header h1 {
+        color: red;
+    }
+}
+
+
+/* Large Devices , Desktops */
+
+@media screen and (max-width:1920px) {}
