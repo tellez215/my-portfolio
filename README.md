@@ -1,5 +1,7 @@
 # <em> My First Portfolio <em>
 #
+https://tellez215.github.io/my-portfolio/
+
 ## Description
 Hello and welcome to my first ever portfolio! I created this portfolio to display my projects and contact information to network and have potential employers take a look at my past and current projects. In my portfolio, I display 4 projects along with a brief section talking about me! I also added my contact information below for any questions or concerns.
 
@@ -18,6 +20,7 @@ As this is my first ever portfolio, changes will be made in the next coming mont
 
 <br>
 
+![contact](./assets/port.gif "gif")
 
 ## <em>License<em>
 [MIT](./LICENSE.txt)
